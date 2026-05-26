@@ -788,6 +788,8 @@ filegroup(
     srcs = [
         ":as",
         "xbin/as",
+        ":gcc",
+        "xbin/gcc",
     ],
     visibility = ["//visibility:public"],
 )
